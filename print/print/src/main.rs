@@ -9,4 +9,6 @@ fn main() {
     #[derive(Debug)]
     struct Stru(i32);
     println!("this struct `{:#?}` wont print", Stru(3));
+    let pi = 3.1415926;
+    println!("{} is rougthly 3.142",pi);
 }
